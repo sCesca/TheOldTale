@@ -58,7 +58,3 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 - É necessário que o Stable Diffusion esteja rodando em conjunto com o setup Ollama
 
-- **Aviso de direitos autorais**: É necessário incluir um aviso de direitos autorais e uma cópia da licença em todas as cópias ou partes substanciais do software.
-
-Este resumo não substitui a licença completa. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE) no repositório.
-
