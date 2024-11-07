@@ -58,24 +58,6 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 - É necessário que o Stable Diffusion esteja rodando em conjunto com o setup Ollama
 
-    
-## Social
-
-Entre no nosso Discord para contato:
-
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VDyXbAG6Bb)
-
-## License
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-
-A Licença MIT é uma licença permissiva de código aberto que é simples e direta. Aqui está um resumo dos termos principais:
-
-- **Permissão é concedida**: A licença permite que você use, copie, modifique, mescle, publique, distribua, sublicencie e venda cópias do software.
-
-- **Sem garantias**: O software é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização, adequação a um fim específico e não violação.
-
 - **Aviso de direitos autorais**: É necessário incluir um aviso de direitos autorais e uma cópia da licença em todas as cópias ou partes substanciais do software.
 
 Este resumo não substitui a licença completa. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE) no repositório.
