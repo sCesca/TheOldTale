@@ -35,7 +35,7 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 2. **Clone o Repositório**: Crie uma pasta aonde deseja colocar o projeto, após isso clique no "caminho" e digite ```cmd``` para abrir o terminal ou o prompt de comando que vai executar aquele comando naquela parte, após isso execute o comando abaixo para clonar o repositório:
 
    ```bash
-   git clone https://github.com/RenanOSX/Praecantatio-Idle.git
+   git clone https://github.com/sCesca/TheOldTale.git
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
