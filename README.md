@@ -14,13 +14,12 @@
 
 [Instalação](#instalação)
 
+[Instalação de APIs](#instalação-de-apis)
+
 [Atualizar Projeto Local](#atualizar-projeto-local)
 
 [Iniciando Projeto Localmente](#iniciando-projeto-localmente)
 
-[Fazendo Commits](#fazendo-commits)
-
-[Aviso Anti-Burro](#aviso-anti-burro)
 
 [Social](#social)
 
