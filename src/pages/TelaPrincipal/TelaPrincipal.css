@@ -1,0 +1,36 @@
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  padding-top: 92px; 
+  height: 100vh; 
+
+}
+
+.carregamento {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Garante que ocupe toda a altura da viewport */
+  width: 100vw; /* Garante que ocupe toda a largura da viewport */
+  background-color: #000000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Outfit', 'Helvetica'
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%; /* Garante que ocupe toda a altura disponível */
+  width: 100%; /* Garante que ocupe toda a largura disponível */
+  /*overflow: hidden;*/ /* Remove barra branca */
+}
+
+@media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.introduction-screen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/ed.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  overflow-y: auto; /* Permitir rolagem vertical */
+}
+
+.proceed-icon {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.proceed-icon img {
+  width: 4rem; /* Ajuste o tamanho conforme necessário */
+  height: 4rem; /* Ajuste o tamanho conforme necessário */
+  transition: transform 0.3s ease;
+}
+
+.proceed-icon img:hover {
+  transform: scale(1.1);
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.line2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.introduction-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 35rem;
+  width: auto; /* Ajuste a largura conforme o conteúdo */
+  margin: 2rem 0; /* Ajuste a margem para espaçamento */
+  flex-shrink: 0; /* Evita que a div encolha */;
+  font-size: 1rem;
+}
+
+.progress-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: auto; /* Ajuste a largura conforme o conteúdo */
+  margin: 2rem 0; /* Ajuste a margem para espaçamento */
+  flex-shrink: 0; /* Evita que a div encolha */;
+  font-size: 1rem;
+}
+
+.introduction-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+
+.introduction-content p {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container img {
+  width: 4rem; /* Ajuste o tamanho conforme necessário */
+  height: 4rem; /* Ajuste o tamanho conforme necessário */
+}
+
+.image-container p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}

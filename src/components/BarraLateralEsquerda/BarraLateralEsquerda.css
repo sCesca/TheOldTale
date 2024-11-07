@@ -1,0 +1,176 @@
+/* Sidebar.css */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-image: url('/assets/images/background-paper.png'); /* Caminho para a imagem da mesa de trabalho */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a célula */
+    background-position: center; /* Centraliza a imagem */
+    border: 1rem solid #00000010;
+    border-image-source: url('/assets/images/floral-border.png');
+    border-image-slice: 50 200; /* Define a largura da borda da imagem e preenche o centro */
+    border-image-repeat: round;
+  }
+  
+  .sidebar-section {
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+  .sidebar-section-combat {
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+  .sidebar-section-money {
+    margin-top: 10%;
+    text-align: center;
+    color: #766404;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+  .version {
+    margin-top: 70%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    height: 5rem;
+    margin-top: 2rem;
+    align-self: center;
+    width: 5rem;
+    border: none;
+    border-radius: 50%; /* Torna o botão circular */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .objectives-tooltip {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    z-index: 10;
+    width: 20rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .objectives-tooltip h4 {
+    font-size: 1.3rem;
+  }
+  
+  .objectives-tooltip ul {
+    list-style: symbols(circled);
+    padding-left: 1rem;
+    margin: 0;
+  }
+  
+  .objectives-tooltip li {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .region-title {
+    font-size: 2rem;
+    color: #311603;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Paint Brush Script', sans-serif;
+  }
+
+  .region-title.clickable {
+    cursor: pointer;
+    background-color: #f825003d; /* Fundo chamativo */
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .region-title.clickable:hover {
+    background-color: #b89910; /* Fundo mais escuro ao passar o mouse */
+  }
+
+  .npc-image-esquerda {
+    width: 15rem;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30%;
+    overflow: hidden;
+    border-radius: 50%; 
+    animation: slideIn 1s ease-in-out; 
+  }
+  
+  .npc-image-esquerda img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+
+  .btn:hover {
+    filter: brightness(70%); /* Escurece a cor de fundo ao passar o mouse */
+  }
+
+  .sidebar-section:first-of-type {
+    margin-top: 1.75rem;
+  }
+  
+  /* Media Queries para Responsividade */
+  @media (max-width: 1024px) {
+    .sidebar {
+      width: 30%;
+    }
+  
+    .sidebar-section {
+      margin-top: 8%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 35%;
+    }
+  
+    .sidebar-section {
+      margin-top: 6%;
+      margin-left: 4%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sidebar {
+      width: 40%;
+    }
+  
+    .sidebar-section {
+      margin-top: 4%;
+      margin-left: 3%;
+    }
+  }

@@ -1,0 +1,91 @@
+/* Estilos gerais */
+.cadastro {
+  background-image: url("../../assets/images/background_menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Usar min-height para preencher a altura da janela */
+  width: 100vw; /* Garante que a tela cubra toda a largura da janela */
+  box-sizing: border-box;
+  position: relative; /* Adiciona posição relativa */
+}
+
+.container-cadastro {
+  background: transparent;
+  margin-top: 7%;
+  opacity: 85%;
+  width: 100%;
+  max-width: 50rem; /* 1440px */
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-return {
+  display: flex;
+  width: 100%;
+  gap: 7rem;
+  align-self: center;
+  justify-content: center;
+}
+
+.text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Outfit", Helvetica;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.arrow-circle-left {
+  width: 3.125rem; /* 50px */
+  height: 3.125rem; /* 50px */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrow-circle-left:hover {
+  transform: scale(1.1);
+}
+
+.arrow-circle-right {
+  width: 3.125rem; /* 50px */
+  height: 3.125rem; /* 50px */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrow-circle-right:hover {
+  transform: scale(1.1);
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .cadastro {
+    padding: 1rem;
+  }
+
+  .container-cadastro {
+    padding: 1rem;
+  }
+
+  .text-wrapper-2 {
+    font-size: 1.5rem;
+  }
+
+  .arrow-circle-left,
+  .arrow-circle-right {
+    width: 2rem;
+    height: 2rem;
+  }
+}

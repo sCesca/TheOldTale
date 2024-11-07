@@ -1,0 +1,42 @@
+.recSenha {
+  background-image: url("../../assets/images/background_menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Usar min-height para preencher a altura da janela */
+  width: 100vw; /* Garante que a tela cubra toda a largura da janela */
+  box-sizing: border-box;
+  position: relative; /* Adiciona posição relativa */
+  }
+  
+  .container-recSenha {
+    background: transparent;
+    margin-top: 7%;
+    opacity: 85%;
+    width: 100%;
+    max-width: 50rem; /* 1440px */
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Outfit", Helvetica;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .button-return {
+    display: flex;
+    width: 100%;
+    gap: 7rem;
+    align-self: center;
+    justify-content: center;
+  }

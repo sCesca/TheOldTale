@@ -1,0 +1,83 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-image: url("../../assets/images/header-background.png"); /* Certifique-se de que o caminho está correto */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    height: 5.8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    border-width: 20px 0;
+    border-style: solid;
+    border-image-source: url('/assets/icons/border-header.png');
+    border-image-slice: 1000 900 fill; /* Define a largura da borda da imagem e preenche o centro */
+  }
+
+  .crown {
+    position: absolute; /* Posiciona a imagem da coroa de forma absoluta */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .left-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-wrapper {
+    color: #ffffff;
+    font-family: "Outfit", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .div {
+    color: #ffffff;
+    font-family: "Outfit", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .stars {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5%;
+    object-fit: cover;
+  }
+
+  .logo {
+    height: 5rem;
+    width: 20rem;
+    margin-left: 5%;
+    object-fit: contain;
+  }
+  
+  .button-exit{
+    margin: 0;
+    font-family: "Outfit", Helvetica;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-image: url("../../assets/images/background-paper.png");
+    border-radius: 2rem;
+  }

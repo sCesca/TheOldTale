@@ -1,0 +1,167 @@
+.monster-container {
+  position: relative;
+  display: inline-block;
+}
+
+.monster-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  /* padding: 1rem; */
+  box-sizing: border-box;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.monster-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 2rem;
+  max-width: 100%;
+  font-family: 'Paint Brush Script', sans-serif;;
+}
+
+.monster-box h1 {
+  max-width: 80%; /* Define o tamanho máximo que o h1 pode ocupar */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.monster-box img {
+  display: block;
+  max-width: 70%; /* Garante que a imagem não exceda a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+#monsterhp {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.damage-text {
+  position: absolute;
+  color: #ff0000; /* Red color for damage text */
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold;
+  animation: floatUp 0.5s ease-out forwards, fadeOut 0.5s ease-out forwards;
+  pointer-events: none; /* Prevent the text from interfering with clicks */
+}
+
+.slash-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%) rotate(45deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.slash-effect.active {
+  opacity: 1;
+  animation: slash-animation 0.5s ease-in-out;
+}
+
+.slash-effect img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes slash-animation {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px); /* Adjust the distance as needed */
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+  .monster-box h1, .monster-box-loading h1 {
+    font-size: 1.3rem;
+  }
+
+  .monster-box img, .monster-box-loading .loading-image-placeholder {
+    max-width: 60%;
+  }
+
+  #monsterhp {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .monster-box h1, .monster-box-loading h1 {
+    font-size: 1.2rem;
+  }
+
+  .monster-box img, .monster-box-loading .loading-image-placeholder {
+    max-width: 50%;
+  }
+
+  #monsterhp {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .monster-box h1, .monster-box-loading h1 {
+    font-size: 1.1rem;
+  }
+
+  .monster-box img, .monster-box-loading .loading-image-placeholder {
+    max-width: 40%;
+  }
+
+  #monsterhp {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .monster-box h1, .monster-box-loading h1 {
+    font-size: 1rem;
+  }
+
+  .monster-box img, .monster-box-loading .loading-image-placeholder {
+    max-width: 30%;
+  }
+
+  #monsterhp {
+    font-size: 0.6rem;
+  }
+}

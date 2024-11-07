@@ -1,0 +1,84 @@
+/* ItensBarraEsquerda.css */
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  height: 2.5rem;
+  width: 100%;
+  white-space: nowrap;
+  background-image: url('../../../assets/images/background_button.png'); /* Caminho para a imagem de fundo */
+  background-size: 30rem 30rem; /* Ajusta a imagem para cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  margin-top: 4rem;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .atributos {
+  font-size: 2rem;
+  color: #311603;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Paint Brush Script', sans-serif;
+}
+
+.sidebar-item .overlap-group {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-left: 30%;
+  color: #DDCDAB;
+  font-family: 'Paint Brush Script', sans-serif;
+  height: 100%;
+  width: 12rem;
+  
+}
+
+.sidebar-item .text-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.sidebar-item img {
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-left: 2%;
+  width: 20px; /* w-5 */
+  aspect-ratio: 0.83 / 1;
+}
+
+.sidebar-item-icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  
+}
+
+.sidebar-item-text {
+  margin: auto 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar-item {
+    margin-left: 5%;
+  }
+
+  .sidebar-item .overlap-group {
+    width: 8rem;
+    height: 1.5rem;
+  }
+
+  .sidebar-item .text-wrapper {
+    font-size: 0.875rem;
+  }
+}

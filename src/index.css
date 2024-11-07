@@ -1,0 +1,50 @@
+/* index.css ou App.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* global.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+  height: 100%;
+  /*overflow: hidden;*/ 
+}
+
+@font-face {
+  font-family: 'Paint Brush Script';
+  src: url('/assets/PaintBrushScript-Regular.woff') format('woff'); /* Ajuste o caminho conforme necessário */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.overflow-hidden {
+  /*overflow: hidden;*/
+}
+
+.bg-neutral-700 {
+  background-color: #3f3f46;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-5 {
+  gap: 1.25rem; 
+}
+
+.max-md\\:flex-col {
+  flex-direction: column;
+}
+
+.max-md\\:ml-0 {
+  margin-left: 0;
+}
+
+.max-md\\:w-full {
+  width: 100%;
+}
+
+

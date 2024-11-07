@@ -1,0 +1,1 @@
+export const textSalvamento = "O salvamento do game é feito automaticamente após a morte de cada inimigo. Certifique-se de que o jogo foi salvo antes de fechar a aba do navegador.";

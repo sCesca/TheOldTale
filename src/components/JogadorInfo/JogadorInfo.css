@@ -1,0 +1,120 @@
+
+.group-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .profile-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  
+  .circle-impermanence {
+    width: 2rem;
+    height: 2rem;
+    align-self: left;
+    margin-left: 2rem;
+  }
+  
+  .carteira {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #311603;
+    align-items: center;
+    justify-content: center;
+    align-self: left;
+    font-family: 'Paint Brush Script', sans-serif;
+    font-size: 2rem;
+  }
+  
+  .atributos-player {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .level-icons {
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .level-icon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .level-icon img {
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+  }
+  
+  .level-icon p {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    align-self: center;
+    font-family: 'Paint Brush Script', sans-serif;
+  }
+
+  .xp-bar-container {
+    width: 90%;
+    background-color: #e0e0e0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .xp-bar {
+    height: 100%;
+    background-color: #76c7c0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .xp-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    color: #311603;
+    font-family: 'Paint Brush Script', sans-serif;
+  }
+
+  .vida-bar-container {
+    width: 90%;
+    background-color: #e0e0e0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .vida-bar {
+    height: 100%;
+    background-color: #ff6b6b;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .vida-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
+  }

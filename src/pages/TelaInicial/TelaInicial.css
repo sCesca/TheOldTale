@@ -1,0 +1,85 @@
+/* Estilos gerais */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tela-inicial {
+  background-image: url("../../assets/images/background_menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Usar min-height para preencher a altura da janela */
+  width: 100vw; /* Garante que a tela cubra toda a largura da janela */
+  box-sizing: border-box;
+  position: relative; /* Adiciona posição relativa */
+ }
+
+.container-inicial {
+  background: transparent;
+  margin-top: 10%;
+  opacity: 85%;
+  width: 100%;
+  max-width: 90rem; /* 1440px */
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yin-yang-inicial {
+  width: 18.75rem; /* 30rem */
+  height: 18.75rem; /* 30rem */
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.text-link {
+  color: #FFFFFF;;
+  font-family: "Outfit", Helvetica;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.625rem 0; /* 10px */
+  cursor: pointer;
+  text-align: center;
+}
+
+.arrow-circle-right {
+  width: 3.125rem; /* 50px */
+  height: 3.125rem; /* 50px */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.arrow-circle-right:hover {
+  transform: scale(1.1);
+}
+
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  .container-inicial {
+    padding: 1rem; /* Reduz o padding em telas menores */
+  }
+
+  .yin-yang-inicial {
+    width: 12.5rem; /* 200px */
+    height: 12.5rem; /* 200px */
+  }
+
+  .arrow-circle-left,
+  .arrow-circle-right {
+    width: 2rem;
+    height: 2rem;
+  }
+}
