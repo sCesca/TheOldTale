@@ -56,6 +56,8 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 - Após instalar tudo necessário você pode iniciar o projeto com o comando ```npm run dev``` e basta segurar 'CTRL+CliqueEsquerdo' no link para abri-lo no browser. Depois disso abra outro terminal e digite ```python server``` depois aperte TAB ai o server vai virar ```.\server.py```, ai sim você pode dar ENTER.
 
+- É necessário que o Stable Diffusion esteja rodando em conjunto com o setup Ollama
+
     
 ## Social
 
