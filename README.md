@@ -49,7 +49,8 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
    2.2 Lora Add Details: https://civitai.com/models/58390/detail-tweaker-lora-lora
    
-3. Para gerar textos aleatórios durante a gameplay, o setup do Ollama também foi necessário (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+3. Para **geração de textos** durante a gameplay, o setup do Ollama também foi necessário (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
    2.1 Modelo utilizado no Ollama: llama3.1
 
 ## Iniciando Projeto Localmente
