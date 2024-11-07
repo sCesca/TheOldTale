@@ -42,6 +42,7 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 ## Instalação de APIs
 
 1. Para a construção do projeto, utilizamos a **API de geração de imagens**: Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
    1.1 Modelo DreamShaper 8: https://civitai.com/models/4384/dreamshaper
 
    2.1 Lora Ancient Sketch: https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft
