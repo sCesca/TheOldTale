@@ -39,6 +39,17 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
+## Instalação de APIs
+
+1. Para a construção do projeto, utilizamos a **API de geração de imagens**: Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+   1.1 Modelo DreamShaper 8: https://civitai.com/models/4384/dreamshaper
+
+   2.1 Lora Ancient Sketch: https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft
+
+   2.2 Lora Add Details: https://civitai.com/models/58390/detail-tweaker-lora-lora
+   
+3. Para gerar textos aleatórios durante a gameplay, o setup do Ollama também foi necessário (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+   2.1 Modelo utilizado no Ollama: llama3.1
 
 ## Iniciando Projeto Localmente
 
