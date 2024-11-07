@@ -39,21 +39,11 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
-## Atualizar Projeto Local
-
-- É **obrigatório** que sempre utilize do seguinte comando ```git fetch``` para mostrar quais atualizações pendentes que você precisa atualizar, **ele mostra os commits que você está pra trás**, após isso utilize ```git pull origin {nome_da_branch}``` para puxar as atualizações e aplica-las ao seu projeto local, isso vai fazer com que você não esteja mexendo em um projeto desatualizado.
 
 ## Iniciando Projeto Localmente
 
 - Após instalar tudo necessário você pode iniciar o projeto com o comando ```npm run dev``` e basta segurar 'CTRL+CliqueEsquerdo' no link para abri-lo no browser. Depois disso abra outro terminal e digite ```python server``` depois aperte TAB ai o server vai virar ```.\server.py```, ai sim você pode dar ENTER.
 
-## Fazendo Commits
-
-- Caso você tenha editado algum arquivo e deseja coloca-lo no commit que você vai fazer você utiliza do ```git add nome-do-seu-arquivo``` para adicionar apenas aquele arquivo, caso queira adicionar TUDO utilize do ```git add .```, mas lembre de tomar cuidado pois várias pessoas podem editar o mesmo arquivo, então se não tomar cuidado alguém pode substituir oque você fez se não estiver atualizado seu projeto, se houver conflitos vai aparecer no terminal uma explicação.
-
-    Após selecionar os arquivos que você deseja colocar no seu commit, basta digitar ```git commit -m "Mensagem explicando oque você alterou"```. Se houver algum problema na hora de commitar ele vai dar um erro e avisar oque aconteceu.
-    
-    Por fim, você precisa mandar esse commit pro repositório, utilize ```git push origin main``` como só temos 1 branch o nome dela é main mesmo. Para ver se funcionou você pode abrir [Pagina Principal](https://github.com/RenanOSX/Precantatio-Idle) e lá em cima vai ta escrito quem foi o ultimo a fazer commit e quanto tempo faz. Se o seu estiver lá, você fez tudo certo.
     
 ## Social
 
