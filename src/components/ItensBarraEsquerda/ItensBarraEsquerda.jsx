@@ -27,25 +27,23 @@ function ItensBarraEsquerda({ icon, text, attribute, maxAttribute }) {
     if (errorMessage) {
       const timer = setTimeout(() => {
         setErrorMessage('');
-      }, 1000); // Limpa a mensagem de erro após 3 segundos
+      }, 1000); 
 
-      return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
+      return () => clearTimeout(timer); 
     }
   }, [errorMessage]);
 
   const handleIncrement = async () => {
     if (player._money > 0) {
-      // Verifica se o atributo já atingiu o máximo
+
       if (player[attribute] < maxAttribute) {
-        // Incrementa o atributo e decrementa uma moeda
+   
         const updatedPlayer = { ...player };
         updatedPlayer[attribute] += 1;
         updatedPlayer._money -= 1;
 
-        // Atualiza o estado do jogador
         setPlayer({...updatedPlayer});
 
-        // Persistir a atualização no Firebase
         try {
           await PlayerService.salvaJogador(user.uid, updatedPlayer);
           setErrorMessage('');

@@ -2,7 +2,7 @@ import React from 'react';
 
 import arrowIcon from '/assets/icons/arrow_circle_right.png';
 
-import './IntroductionScreen.css'; // Certifique-se de que o caminho está correto
+import './IntroductionScreen.css';
 
 import { textSalvamento } from '../../constants/Texts';
 

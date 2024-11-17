@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body, html {
   margin: 0;
   padding: 0;
@@ -9,15 +8,15 @@ body, html {
 .tela-inicial {
   background-image: url("../../assets/images/background_menu.jpg");
   background-repeat: no-repeat;
-  background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  background-size: cover; 
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Usar min-height para preencher a altura da janela */
-  width: 100vw; /* Garante que a tela cubra toda a largura da janela */
+  min-height: 100vh; 
+  width: 100vw;
   box-sizing: border-box;
-  position: relative; /* Adiciona posição relativa */
+  position: relative; 
  }
 
 .container-inicial {
@@ -25,7 +24,7 @@ body, html {
   margin-top: 10%;
   opacity: 85%;
   width: 100%;
-  max-width: 90rem; /* 1440px */
+  max-width: 90rem; 
   box-sizing: border-box;
   position: relative;
   display: flex;
@@ -34,9 +33,9 @@ body, html {
 }
 
 .yin-yang-inicial {
-  width: 18.75rem; /* 30rem */
-  height: 18.75rem; /* 30rem */
-  margin-bottom: 1.25rem; /* 20px */
+  width: 18.75rem;
+  height: 18.75rem; 
+  margin-bottom: 1.25rem; 
 }
 
 .error-message {
@@ -49,14 +48,14 @@ body, html {
   font-family: "Outfit", Helvetica;
   font-size: 1.2rem;
   font-weight: 700;
-  margin: 0.625rem 0; /* 10px */
+  margin: 0.625rem 0; 
   cursor: pointer;
   text-align: center;
 }
 
 .arrow-circle-right {
-  width: 3.125rem; /* 50px */
-  height: 3.125rem; /* 50px */
+  width: 3.125rem;
+  height: 3.125rem; 
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -65,16 +64,14 @@ body, html {
   transform: scale(1.1);
 }
 
-
-/* Media Queries para responsividade */
 @media (max-width: 768px) {
   .container-inicial {
-    padding: 1rem; /* Reduz o padding em telas menores */
+    padding: 1rem; 
   }
 
   .yin-yang-inicial {
-    width: 12.5rem; /* 200px */
-    height: 12.5rem; /* 200px */
+    width: 12.5rem; 
+    height: 12.5rem; 
   }
 
   .arrow-circle-left,

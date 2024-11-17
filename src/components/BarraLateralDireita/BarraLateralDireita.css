@@ -1,14 +1,13 @@
-/* StatsInfo.css */
 .stats-info {
   display: flex;
   flex-direction: column;
   width: 25%;
-  background-image: url('/assets/images/background-paper.png'); /* Caminho para a imagem da mesa de trabalho */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a célula */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url('/assets/images/background-paper.png');
+  background-size: cover; 
+  background-position: center; 
   border: 1rem solid #00000010;
   border-image-source: url('/assets/images/floral-border.png');
-  border-image-slice: 50 200; /* Define a largura da borda da imagem e preenche o centro */
+  border-image-slice: 50 200;
   border-image-repeat: round;
 }
 

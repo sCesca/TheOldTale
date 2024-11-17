@@ -2,7 +2,7 @@ import React from 'react';
 import './Monstro.css'; 
 
 function LoadingMonstro({ index }) {
-    const borderColor = "transparent"; // Pode ser alterado para uma cor fixa se desejar
+    const borderColor = "transparent";
 
     const monsterBoxStyle = {
         boxShadow: `0 0 1rem ${borderColor},

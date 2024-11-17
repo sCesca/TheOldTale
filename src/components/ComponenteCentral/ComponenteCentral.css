@@ -1,20 +1,19 @@
-/* MainContent.css */
 * {
-  box-sizing: border-box; /* Inclui padding e border no cálculo da largura para todos os elementos */
+  box-sizing: border-box; 
   margin: 0;
   padding: 0;
 }
 
 html, body {
   height: 100%;
-  overflow: hidden; /* Evita scroll na página */
+  overflow: hidden;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh; /* Ajustar para ocupar a altura total da viewport */
+  height: 100vh; 
 }
 
 .content {
@@ -23,8 +22,8 @@ html, body {
   flex-grow: 1;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Garantir que o conteúdo ocupe toda a largura */
-  overflow: hidden; /* Evita scroll no conteúdo */
+  width: 100%; 
+  overflow: hidden;
 }
 
 .coletaveis {
@@ -40,8 +39,8 @@ html, body {
 .marcador-de-tempo {
   height: 5rem;
   width: 5rem;
-  box-shadow: 0 0 20px 10px #531286; /* Adiciona um brilho dourado ao redor do item */
-  border-radius: 50%; /* Adiciona bordas arredondadas para combinar com a forma do anel */
+  box-shadow: 0 0 20px 10px #531286; 
+  border-radius: 50%; 
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -49,8 +48,8 @@ html, body {
 .grimorio-sombrio {
   height: 5rem;
   width: 5rem;
-  box-shadow: 0 0 20px 10px #3EDD86; /* Adiciona um brilho dourado ao redor do item */
-  border-radius: 50%; /* Adiciona bordas arredondadas para combinar com a forma do anel */
+  box-shadow: 0 0 20px 10px #3EDD86; 
+  border-radius: 50%; 
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -58,8 +57,8 @@ html, body {
 .anel-pristino {
   height: 5rem;
   width: 5rem;
-  box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.8); /* Adiciona um brilho dourado ao redor do item */
-  border-radius: 50%; /* Adiciona bordas arredondadas para combinar com a forma do anel */
+  box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.8); 
+  border-radius: 50%;
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -82,7 +81,7 @@ html, body {
   background-color: #a1a1aa; 
   align-items: center;
   justify-content: center;
-  width: 100%; /* Ocupa toda a largura disponível */
+  width: 100%;
 }
 
 .main-section-content {
@@ -92,7 +91,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-grow: 1; /* Permite que o conteúdo principal cresça para ocupar o espaço disponível */
+  flex-grow: 1;
 }
 
 .section-buttons {
@@ -101,9 +100,9 @@ html, body {
   justify-content: space-around;
   border-left: 0.2rem solid #000000;
   border-right: 0.2rem solid #000000;
-  background-color: #A5A5AB; /* Cor do retângulo */
-  padding: 1rem; /* Espaçamento interno */
-  width: 100%; /* Ocupa toda a largura disponível */
+  background-color: #A5A5AB; 
+  padding: 1rem; 
+  width: 100%;
 }
 
 .attack-button {
@@ -117,7 +116,7 @@ html, body {
   background-image: url("../../assets/images/background-paper.png");
   border: 2rem solid;
   border-image-source: url('/assets/images/floral-border.png');
-  border-image-slice: 150 200; /* Define a largura da borda da imagem e preenche o centro */
+  border-image-slice: 150 200; 
   border-image-repeat: round;
   width: 100%;
   flex-grow: 1;
@@ -157,9 +156,9 @@ html, body {
   justify-content: center;
   align-items: center;
   border: 0.4rem solid #00000069;
-  background-image: url('/assets/images/header-background.png'); /* Caminho para a imagem da mesa de trabalho */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a célula */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url('/assets/images/header-background.png'); 
+  background-size: cover; 
+  background-position: center;
 }
 
 .shelf-cell {
@@ -170,15 +169,15 @@ html, body {
   width: 7rem;
   border: 0.4rem solid #00000069;
   cursor: pointer;
-  background-image: url('/assets/images/header-background.png'); /* Caminho para a imagem da mesa de trabalho */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a célula */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url('/assets/images/header-background.png');
+  background-size: cover; 
+  background-position: center; 
 }
 
 .shelf-cell.selected {
-  border-color: #ffcc0080; /* Cor da borda para células selecionadas */
-  background-color: rgba(255, 204, 0, 0.3); /* Cor de fundo para células selecionadas */
-  opacity: 0.9; /* Opacidade da imagem de fundo */
+  border-color: #ffcc0080; 
+  background-color: rgba(255, 204, 0, 0.3); 
+  opacity: 0.9; 
 }
 
 .shelf-cell img {
@@ -187,16 +186,14 @@ html, body {
 }
 
 .custom-tooltip {
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
-  padding: 5px 10px; /* Padding */
-  border-radius: 4px; /* Border radius */
-  font-size: 14px; /* Font size */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+  background-color: #333; 
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
-
-/* Media Queries para Responsividade */
 @media (max-width: 768px) {
   .main-header {
       font-size: 1.75rem;

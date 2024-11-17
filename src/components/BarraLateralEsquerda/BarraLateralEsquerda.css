@@ -1,14 +1,13 @@
-/* Sidebar.css */
 .sidebar {
     display: flex;
     flex-direction: column;
     width: 25%;
-    background-image: url('/assets/images/background-paper.png'); /* Caminho para a imagem da mesa de trabalho */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a célula */
-    background-position: center; /* Centraliza a imagem */
+    background-image: url('/assets/images/background-paper.png');
+    background-size: cover; 
+    background-position: center; 
     border: 1rem solid #00000010;
     border-image-source: url('/assets/images/floral-border.png');
-    border-image-slice: 50 200; /* Define a largura da borda da imagem e preenche o centro */
+    border-image-slice: 50 200; 
     border-image-repeat: round;
   }
   
@@ -60,7 +59,7 @@
     align-self: center;
     width: 5rem;
     border: none;
-    border-radius: 50%; /* Torna o botão circular */
+    border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -107,14 +106,14 @@
 
   .region-title.clickable {
     cursor: pointer;
-    background-color: #f825003d; /* Fundo chamativo */
+    background-color: #f825003d; 
     border-radius: 10px;
     padding: 10px;
     transition: background-color 0.3s ease;
   }
   
   .region-title.clickable:hover {
-    background-color: #b89910; /* Fundo mais escuro ao passar o mouse */
+    background-color: #b89910; 
   }
 
   .npc-image-esquerda {
@@ -134,14 +133,13 @@
   }
 
   .btn:hover {
-    filter: brightness(70%); /* Escurece a cor de fundo ao passar o mouse */
+    filter: brightness(70%); 
   }
 
   .sidebar-section:first-of-type {
     margin-top: 1.75rem;
   }
   
-  /* Media Queries para Responsividade */
   @media (max-width: 1024px) {
     .sidebar {
       width: 30%;

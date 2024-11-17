@@ -12,7 +12,7 @@ import { GameContext } from '../../context/GameContext';
 
 import karmalumia from '/assets/images/karma-lumia.png';
 
-import { Tooltip as ReactTooltip } from 'react-tooltip'; // Correct import statement
+import { Tooltip as ReactTooltip } from 'react-tooltip'; 
 
 const objectives = [
   [

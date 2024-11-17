@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 
 import './ComponenteCentral.css';
 
-import { Tooltip as ReactTooltip } from 'react-tooltip'; // Correct import statement
+import { Tooltip as ReactTooltip } from 'react-tooltip'; 
 
 import ComponenteMonstro from '../ComponenteMonstro/Monstro.jsx';
 

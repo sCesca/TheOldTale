@@ -9,8 +9,8 @@
 .carregamento {
   display: flex;
   flex-direction: row;
-  height: 100vh; /* Garante que ocupe toda a altura da viewport */
-  width: 100vw; /* Garante que ocupe toda a largura da viewport */
+  height: 100vh; 
+  width: 100vw;
   background-color: #000000;
   text-align: center;
   align-items: center;
@@ -24,9 +24,8 @@
 .layout-container {
   display: flex;
   flex-direction: row;
-  height: 100%; /* Garante que ocupe toda a altura disponível */
-  width: 100%; /* Garante que ocupe toda a largura disponível */
-  /*overflow: hidden;*/ /* Remove barra branca */
+  height: 100%; 
+  width: 100%; 
 }
 
 @media (max-width: 768px) {

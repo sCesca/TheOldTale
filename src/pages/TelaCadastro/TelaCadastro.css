@@ -1,16 +1,15 @@
-/* Estilos gerais */
 .cadastro {
   background-image: url("../../assets/images/background_menu.jpg");
   background-repeat: no-repeat;
-  background-size: cover; /* Garante que a imagem cubra todo o fundo */
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Usar min-height para preencher a altura da janela */
-  width: 100vw; /* Garante que a tela cubra toda a largura da janela */
+  min-height: 100vh;
+  width: 100vw; 
   box-sizing: border-box;
-  position: relative; /* Adiciona posição relativa */
+  position: relative;
 }
 
 .container-cadastro {
@@ -18,7 +17,7 @@
   margin-top: 7%;
   opacity: 85%;
   width: 100%;
-  max-width: 50rem; /* 1440px */
+  max-width: 50rem; 
   box-sizing: border-box;
   position: relative;
   display: flex;
@@ -39,7 +38,7 @@
   font-family: "Outfit", Helvetica;
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; 
 }
 
 .error-message {
@@ -48,8 +47,8 @@
 }
 
 .arrow-circle-left {
-  width: 3.125rem; /* 50px */
-  height: 3.125rem; /* 50px */
+  width: 3.125rem; 
+  height: 3.125rem;
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -59,8 +58,8 @@
 }
 
 .arrow-circle-right {
-  width: 3.125rem; /* 50px */
-  height: 3.125rem; /* 50px */
+  width: 3.125rem; 
+  height: 3.125rem;
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -69,7 +68,6 @@
   transform: scale(1.1);
 }
 
-/* Media queries para responsividade */
 @media (max-width: 768px) {
   .cadastro {
     padding: 1rem;

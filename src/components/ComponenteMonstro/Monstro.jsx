@@ -23,7 +23,7 @@ function ComponenteMonstro({ monster, player, index, onMonsterUpdate }) {
 
     const [loading, setLoading] = useState(true);
 
-    const [isAttacking, setIsAttacking] = useState(false); // Estado para controlar a animação de ataque
+    const [isAttacking, setIsAttacking] = useState(false);
 
     const [image, setImage] = useState(null)
 
@@ -46,7 +46,6 @@ function ComponenteMonstro({ monster, player, index, onMonsterUpdate }) {
 
     const fetchImage = async () => {
         try {
-            // Força a atualização da imagem ao adicionar um parâmetro de tempo
             const timestamp = new Date().getTime();
             const imagePath = `/assets/images/monsters/${index}.png?timestamp=${timestamp}`;
             const response = await fetch(imagePath);
@@ -98,13 +97,13 @@ function ComponenteMonstro({ monster, player, index, onMonsterUpdate }) {
 
         setShowDamage(true);
 
-        setIsAttacking(true); // Ativa a animação de ataque
+        setIsAttacking(true); 
 
         const audio = new Audio(slashAudio);
 
         audio.play();
         setTimeout(() => {
-            setIsAttacking(false); // Desativa a animação de ataque após 500ms
+            setIsAttacking(false); 
         }, 200);
 
         if (updatedMonster.health <= 0) {

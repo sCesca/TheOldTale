@@ -47,12 +47,12 @@ const TelaCadastro = () => {
 
   const handleSignupSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true); // Ativar loading
+    setLoading(true); 
     setGameLoading(true);
 
     if (password !== confirmPassword) {
       setError('As senhas não correspondem.');
-      setLoading(false); // Desativar loading
+      setLoading(false); 
       setGameLoading(false);
       return;
     }
@@ -70,12 +70,11 @@ const TelaCadastro = () => {
         } catch (error) {
           console.error('Erro ao atualizar perfil de autenticação:', error);
           setError('Erro ao atualizar perfil de autenticação.');
-          setLoading(false); // Desativar loading
+          setLoading(false);
           setGameLoading(false);
           return;
         }
 
-        // Atualizar dados no Realtime Database
         try {
           await AuthServices.setUserInDatabase(currentUser);
           console.log('Current user: ', currentUser);
@@ -83,19 +82,19 @@ const TelaCadastro = () => {
         } catch (error) {
           console.error('Erro ao atualizar dados no Realtime Database:', error);
           setError('Erro ao atualizar dados no Realtime Database.');
-          setLoading(false); // Desativar loading
+          setLoading(false); 
           setGameLoading(false);
           return;
         }
 
         const initialPlayerData = {
           _name: name,
-          _money: 0,
+          _money: 5,
           _xp: 0,
           _xpToNextLevel: 100,
           _level: 1,
-          _dano: 0,
-          _agilidade: 0
+          _dano: 1,
+          _agilidade: 1
         };
         await PlayerService.salvaJogador(currentUser.uid, initialPlayerData);
 
@@ -110,7 +109,7 @@ const TelaCadastro = () => {
       console.error('Erro ao criar conta:', error);
       setError('Erro ao criar conta.');
     } finally {
-      setLoading(false); // Desativar loading
+      setLoading(false);
     }
   };
 

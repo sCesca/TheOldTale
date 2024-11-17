@@ -1,0 +1,93 @@
+.game-end-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../../assets/images/background-paper.png");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    color: #333;
+    position: relative; 
+  }
+  
+  .logout-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-button img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .logout-button:hover img {
+    transform: scale(1.1);
+  }
+  
+  .game-end-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Paint Brush Script', sans-serif;
+    color: #311603;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .story-text-game-end {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .next-button {
+    margin-top: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button img {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .game-end-page h1 {
+      font-size: 2.5rem;
+    }
+  
+    .story-text {
+      font-size: 1.25rem;
+    }
+  
+    .next-button img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .game-end-page h1 {
+      font-size: 2rem;
+    }
+  
+    .story-text {
+      font-size: 1rem;
+    }
+  
+    .next-button img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }

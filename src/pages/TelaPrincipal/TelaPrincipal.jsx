@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 
 import Header from '../../components/Header/Header';
 
@@ -18,6 +18,11 @@ import { GameContext } from '../../context/GameContext.jsx';
 
 import { AuthContext } from '../../context/AuthContext.jsx';
 
+import GameEndPage from '../GameEnd/GameEnd.jsx';
+
+import GameplayService from '../../services/GameplayService.js';
+
+
 const TelaPrincipal = () => {
 
   const {
@@ -27,15 +32,36 @@ const TelaPrincipal = () => {
     introduction,
     handleMonsterUpdate,
     currentLog,
-    isFirstLogin
+    isFirstLogin,
+    currentRegion,
+    coletaveis,
+    theme
   } = useContext(GameContext)
 
   const {
     user
   } = useContext(AuthContext)
 
+  const [gameEnd, setGameEnd] = useState('');
+
+  useEffect(() => {
+    const fetchGameEndStory = async () => {
+      if (currentRegion === 4 && user) {
+        const story = await GameplayService.buscaFimDeJogo(user.uid, theme, coletaveis);
+        setGameEnd(story); 
+        console.log(story);
+      }  
+    }  
+
+    fetchGameEndStory()
+  }, [currentRegion, user, theme, coletaveis]) 
+
   if (loading) {
     return <LoadingScreen currentLog={currentLog} />;
+  }
+
+  if (currentRegion === 4) {
+    return <GameEndPage story={gameEnd}/>;
   }
 
   const handleCloseIntroduction = () => {

@@ -9,7 +9,6 @@
   align-items: center;
   text-align: center;
   max-width: 100%;
-  /* padding: 1rem; */
   box-sizing: border-box;
   border-radius: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -25,7 +24,7 @@
 }
 
 .monster-box h1 {
-  max-width: 80%; /* Define o tamanho máximo que o h1 pode ocupar */
+  max-width: 80%; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,8 +35,8 @@
 
 .monster-box img {
   display: block;
-  max-width: 70%; /* Garante que a imagem não exceda a largura do container */
-  height: auto; /* Mantém a proporção da imagem */
+  max-width: 70%;
+  height: auto;
   border-radius: 1rem;
   margin: 0 auto;
 }
@@ -49,11 +48,11 @@
 
 .damage-text {
   position: absolute;
-  color: #ff0000; /* Red color for damage text */
-  font-size: 2rem; /* Adjust the size as needed */
+  color: #ff0000; 
+  font-size: 2rem; 
   font-weight: bold;
   animation: floatUp 0.5s ease-out forwards, fadeOut 0.5s ease-out forwards;
-  pointer-events: none; /* Prevent the text from interfering with clicks */
+  pointer-events: none; 
 }
 
 .slash-effect {
@@ -96,7 +95,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-50px); /* Adjust the distance as needed */
+    transform: translateY(-50px); 
   }
 }
 
@@ -109,7 +108,6 @@
   }
 }
 
-/* Media Queries para Responsividade */
 @media (max-width: 1200px) {
   .monster-box h1, .monster-box-loading h1 {
     font-size: 1.3rem;

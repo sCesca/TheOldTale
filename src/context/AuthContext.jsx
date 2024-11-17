@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
       const response = await AuthServices.login(email, password);
       if (response.success) {
         setUser(response.user);
-        localStorage.setItem('user', JSON.stringify(response.user)); // Store user in local storage
+        localStorage.setItem('user', JSON.stringify(response.user));
       }
       return response;
     } catch (error) {

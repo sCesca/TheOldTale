@@ -192,33 +192,40 @@ class GameplayService {
         }
     }
 
-    async geraDerrota(theme, enemy) {
-        const inputText = `
-            Write a narrative about the defeat of the young factory worker from 1800s England. 
-            He was inside a cursed book and faced a ${enemy}, but was ultimately defeated. 
-            The story should have a somber tone, with hints of tragedy, as the worker succumbs to the curse of the book and loses his life. 
-            The theme of the defeat should be tied to ${theme}, and the consequences of losing should be dire and mysterious. Don't give explications, I need only the text and nothing more.. Also, write 3 paragraphs. Do not use \ or / in the text.
-        `;
-    
-        try {
-            const response = await fetch('http://localhost:5000/story-generator', { 
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    text: inputText
-                })
-            });
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+    async buscaFimDeJogo(userId, theme, coletaveis) {
+        const dbRef = ref(db);
+        const snapshot = await get(child(dbRef, `users/${userId}/gameEnd`));
+        let inputText;
+
+        if (coletaveis.anel && coletaveis.grimorio && coletaveis.marcador) {
+            inputText = `Create an epic conclusion for the final region called 'End of the Journey', in Portuguese-BR, based on the player's chosen theme: ${theme}. The character has overcome all challenges and now stands at the pinnacle of their journey. With the Anel, Grimorio, and Marcador, the character masters the three powers: understanding the magical forces, opening portals to break enchantments, and manipulating time. The final revelation ties all the mysteries together, and the character's destiny is fulfilled as they break the spells and return home. Only 6 lines of text, with no additional explanations or symbols.`;
+        } else {
+            inputText = `Create an epic conclusion for the final region called 'End of the Journey', in Portuguese-BR, based on the player's chosen theme: ${theme}. The character has overcome many challenges but lacks the full power to break the spells. Without the Anel, Grimorio, and Marcador, the character is unable to master the magical forces, open portals, and manipulate time. The final revelation is a tragic one, as the character is defeated and remains trapped in the magical world. Only 6 lines of text, with no additional explanations or symbols.`;
+        }
+
+        if (snapshot.exists()) {
+            return snapshot.val();
+        } else {
+            try {
+                const response = await fetch('http://localhost:5000/story-generator', { 
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        text: inputText
+                    })
+                });
+                const data = await response.json();
+                const formattedHistoria = data.story.split('. ').map(sentence => sentence.trim()).filter(sentence => sentence.length > 0);
+                await set(ref(db, `users/${userId}/gameEnd`), formattedHistoria);
+                return formattedHistoria;
+            } catch (error) {
+                console.error('Erro ao gerar fim de jogo:', error);
+                return '';
             }
-            const data = await response.json();
-            return data.story;
-        } catch (error) {
-            console.error('Erro ao gerar história de derrota:', error);
         }
     }
-}
+ }
 
 export default new GameplayService();

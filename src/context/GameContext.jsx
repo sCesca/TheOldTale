@@ -1,4 +1,3 @@
-// src/context/GameContext.jsx
 import React, { createContext, useState, useEffect, useContext } from 'react';
 
 import AuthServices from '../services/AuthServices';
@@ -97,7 +96,6 @@ export const GameProvider = ({ children }) => {
           user.theme = theme;
           await AuthServices.updateUserInDatabase(user);
 
-          // Redefine os monstros
           await MonsterService.resetMonsters(user.uid, theme);
 
           initializeData();

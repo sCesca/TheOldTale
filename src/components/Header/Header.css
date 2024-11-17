@@ -6,10 +6,10 @@
   }
   
   .header {
-    background-image: url("../../assets/images/header-background.png"); /* Certifique-se de que o caminho está correto */
-    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-    background-position: center; /* Centraliza a imagem */
+    background-image: url("../../assets/images/header-background.png"); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
     height: 5.8rem;
     width: 100%;
     position: fixed;
@@ -23,11 +23,11 @@
     border-width: 20px 0;
     border-style: solid;
     border-image-source: url('/assets/icons/border-header.png');
-    border-image-slice: 1000 900 fill; /* Define a largura da borda da imagem e preenche o centro */
+    border-image-slice: 1000 900 fill; 
   }
 
   .crown {
-    position: absolute; /* Posiciona a imagem da coroa de forma absoluta */
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
 

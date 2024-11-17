@@ -1,13 +1,12 @@
-/* ItensBarraEsquerda.css */
 .sidebar-item {
   display: flex;
   flex-direction: row;
   height: 2.5rem;
   width: 100%;
   white-space: nowrap;
-  background-image: url('../../../assets/images/background_button.png'); /* Caminho para a imagem de fundo */
-  background-size: 30rem 30rem; /* Ajusta a imagem para cobrir toda a área */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url('../../../assets/images/background_button.png'); 
+  background-size: 30rem 30rem; 
+  background-position: center; 
 }
 
 .container {
@@ -54,7 +53,7 @@
   object-fit: contain;
   flex-shrink: 0;
   margin-left: 2%;
-  width: 20px; /* w-5 */
+  width: 20px; 
   aspect-ratio: 0.83 / 1;
 }
 
