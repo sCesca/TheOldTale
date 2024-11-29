@@ -3,7 +3,7 @@
 **The Old Tale** é um jogo clicker que utiliza inteligência artificial para gerar imagens e textos de forma generativa.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Banner+do+Projeto" alt="Banner do Projeto" style="border-radius: 8px;">
+  <img src="./public/assets/images/background_menu.jpg" alt="Banner do Projeto" style="border-radius: 8px;">
 </div>
 
 ---
@@ -47,9 +47,9 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Crie uma pasta no local desejado, abra o terminal nela e execute o comando abaixo:
 
-  ´´´bash 
-    git clone https://github.com/sCesca/TheOldTale.git
-
+```bash
+git clone https://github.com/sCesca/TheOldTale.git
+```
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
