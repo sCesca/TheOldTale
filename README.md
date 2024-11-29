@@ -25,7 +25,7 @@
 ## **Índice**
 
 - [Instalação](#instalação)
-- [Instalação de APIs](#instalação-de-apis)
+- [Instalação de APIs 🌐](#instalação-de-apis)
 - [Atualizar Projeto Local](#atualizar-projeto-local)
 - [Iniciando Projeto Localmente](#iniciando-projeto-localmente)
 - [Login](#login)
