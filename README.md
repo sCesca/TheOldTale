@@ -53,13 +53,13 @@ git clone https://github.com/sCesca/TheOldTale.git
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
-## Instalação de APIs 🌐
+## **Instalação de APIs 🌐**
 
 Para a construção do projeto, utilizamos as seguintes APIs:
 
 ### Geração de Imagens 🎨
 
-- **Stable Diffusion:** [Link para o modelo]([URL](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- **Stable Diffusion:** [Link para o modelo]((https://github.com/AUTOMATIC1111/stable-diffusion-webui)
   
 - **Modelos Utilizados**:
   - **Modelo DreamShaper 8:** [Link para o Modelo](https://civitai.com/models/4384/dreamshaper)
