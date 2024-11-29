@@ -116,4 +116,4 @@ Após isso, basta utilizar: 'CTRL+CliqueEsquerdo' no link para abri-lo no browse
 Siga-me nas redes sociais:
 
 - [Linkedin](https://www.linkedin.com/in/samuelcesca/)
-- [Instagram](https://www.instagram.com/samuelcesca)
+- [Instagram](https://www.instagram.com/samucesca)
