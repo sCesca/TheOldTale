@@ -58,8 +58,10 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 
 - É necessário que o Stable Diffusion esteja rodando em conjunto com o setup Ollama
 
-## Visual do Jogo
+## Login
 ![Demonstração do Login](./gif-1.gif)
+
+## Final do Game
 ![Demonstração do Final do Jogo](./gif-2.gif)
 
 
