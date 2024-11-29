@@ -70,4 +70,3 @@ Para clonar o projeto para o seu computador, siga os seguintes passos:
 ## Final do Game
 ![Demonstração do Final do Jogo](./gif-2.gif)
 
-
