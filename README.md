@@ -3,44 +3,53 @@
 **The Old Tale** é um jogo clicker que utiliza inteligência artificial para gerar imagens e textos de forma generativa.
 
 <div align="center">
-  <img src="./public/assets/images/background_menu.jpg" alt="Banner do Projeto" style="border-radius: 8px;">
+  <img src="https://via.placeholder.com/800x400.png?text=Banner+do+Projeto" alt="Banner do Projeto" style="border-radius: 8px;">
 </div>
 
 ---
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+## **Tecnologias Utilizadas**
 
-## Índice
+<div align="center">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+</div>
 
-[Instalação](#instalação)
+---
 
-[Instalação de APIs](#instalação-de-apis)
+## **Índice**
 
-[Atualizar Projeto Local](#atualizar-projeto-local)
+- [Instalação](#instalação)
+- [Instalação de APIs](#instalação-de-apis)
+- [Atualizar Projeto Local](#atualizar-projeto-local)
+- [Iniciando Projeto Localmente](#iniciando-projeto-localmente)
+- [Login](#login)
+- [Final do Game](#final-do-game)
+- [Social](#social)
+- [License](#license)
 
-[Iniciando Projeto Localmente](#iniciando-projeto-localmente)
+---
 
+## **Instalação**
 
-[Social](#social)
+### **1. Pré-requisitos**
 
-[License](#license)
+Certifique-se de ter as seguintes ferramentas instaladas:
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/)
 
-## Instalação
+### **2. Clone o repositório**
 
-Para clonar o projeto para o seu computador, siga os seguintes passos:
+Crie uma pasta no local desejado, abra o terminal nela e execute o comando abaixo:
 
-1. **Instale o Git**: Certifique-se de que o Git está instalado no seu sistema. Você pode baixar o Git [aqui](https://git-scm.com/downloads).
+```bash
+git clone https://github.com/sCesca/TheOldTale.git
 
-2. **Clone o Repositório**: Crie uma pasta aonde deseja colocar o projeto, após isso clique no "caminho" e digite ```cmd``` para abrir o terminal ou o prompt de comando que vai executar aquele comando naquela parte, após isso execute o comando abaixo para clonar o repositório:
-
-   ```bash
-   git clone https://github.com/sCesca/TheOldTale.git
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
