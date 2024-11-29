@@ -3,7 +3,7 @@
 **The Old Tale** é um jogo clicker que utiliza inteligência artificial para gerar imagens e textos de forma generativa.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Banner+do+Projeto" alt="Banner do Projeto" style="border-radius: 8px;">
+  <img src="./public/assets/images/background_menu.jpg" alt="Banner do Projeto" style="border-radius: 8px;">
 </div>
 
 ---
