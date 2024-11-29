@@ -59,11 +59,14 @@ Para a construção do projeto, utilizamos as seguintes APIs:
 
 ### Geração de Imagens 🎨
 
-- **Stable Diffusion:** (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- **Stable Diffusion:** [Link para o modelo]([URL](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+  
 - **Modelos Utilizados**:
-  - **Modelo DreamShaper 8:** https://civitai.com/models/4384/dreamshaper
-  - **Lora Ancient Sketch:** https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft
-  - **Lora Add Details:** https://civitai.com/models/58390/detail-tweaker-lora-lora
+  - **Modelo DreamShaper 8:** [Link para o Modelo](https://civitai.com/models/4384/dreamshaper)
+    
+  - **Lora Ancient Sketch:** [Link para o Lora]( https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft)
+    
+  - **Lora Add Details:** [Link para o Lora](https://civitai.com/models/58390/detail-tweaker-lora-lora)
    
 3. Para **geração de textos** durante a gameplay, o setup do Ollama também foi necessário (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
