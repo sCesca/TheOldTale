@@ -47,7 +47,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Crie uma pasta no local desejado, abra o terminal nela e execute o comando abaixo:
 
-  ```bash
+  ´´´bash 
     git clone https://github.com/sCesca/TheOldTale.git
 
 
