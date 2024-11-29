@@ -53,15 +53,17 @@ git clone https://github.com/sCesca/TheOldTale.git
 
 3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
 
-## Instalação de APIs
+## Instalação de APIs 🌐
 
-1. Para a construção do projeto, utilizamos a **API de geração de imagens**: Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+Para a construção do projeto, utilizamos as seguintes APIs:
 
-   1.1 Modelo DreamShaper 8: https://civitai.com/models/4384/dreamshaper
+### Geração de Imagens 🎨
 
-   2.1 Lora Ancient Sketch: https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft
-
-   2.2 Lora Add Details: https://civitai.com/models/58390/detail-tweaker-lora-lora
+- **Stable Diffusion:** (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- **Modelos Utilizados**:
+  - **Modelo DreamShaper 8:** https://civitai.com/models/4384/dreamshaper
+  - **Lora Ancient Sketch:** https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft
+  - **Lora Add Details:** https://civitai.com/models/58390/detail-tweaker-lora-lora
    
 3. Para **geração de textos** durante a gameplay, o setup do Ollama também foi necessário (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
