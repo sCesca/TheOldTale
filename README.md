@@ -40,6 +40,7 @@
 
 Certifique-se de ter as seguintes ferramentas instaladas:
 - [Git](https://git-scm.com/downloads)
+- [Python](https://www.python.org/downloads/)
 
 ### **2. Clone o repositório**
 
@@ -110,3 +111,8 @@ Após isso, basta utilizar: 'CTRL+CliqueEsquerdo' no link para abri-lo no browse
 ## Final do Game 🎉
 ![Demonstração do Final do Jogo](./gif-2.gif)
 
+## Social 🌍
+
+Siga-me nas redes sociais:
+
+- [Linkedin](https://www.linkedin.com/in/samuelcesca/}
