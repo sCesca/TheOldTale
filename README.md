@@ -6,8 +6,6 @@
   <img src="./public/assets/images/background_menu.jpg" alt="Banner do Projeto" style="border-radius: 8px;">
 </div>
 
----
-
 ## **Tecnologias Utilizadas**
 
 <div align="center">
@@ -19,8 +17,6 @@
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
 </div>
 
----
-
 ## **Índice**
 
 - [Instalação](#instalação)
@@ -31,8 +27,6 @@
 - [Final do Game](#final-do-game)
 - [Social](#social)
 - [License](#license)
-
----
 
 ## **Instalação**
 
@@ -73,8 +67,6 @@ Para a construção do projeto, utilizamos as seguintes APIs:
   - **Lora Ancient Sketch:** [Link para o Lora](https://civitai.com/models/309555/paper-backgroundvintage-and-ragged-paper-background-game-prop-hand-drawn-draft)
     
   - **Lora Add Details:** [Link para o Lora](https://civitai.com/models/58390/detail-tweaker-lora-lora)
-
----
 
 ### Geração de Textos ✍️
 
