@@ -51,7 +51,14 @@ Crie uma pasta no local desejado, abra o terminal nela e execute o comando abaix
 git clone https://github.com/sCesca/TheOldTale.git
 ```
 
-3. **Instalar Dependências**: Utilize o ```npm install``` no terminal do projeto (para abrir o terminal basta clicar no VSCODE em "View" e "Terminal" que vai abrir um terminal novo) para instalar todas as dependências como React.js e relacionados. Vale lembrar que é **necessário ter instalado o Node.js** .
+### **3. Instalar Dependências**
+
+Após clonar o repositório, navegue até o diretório do projeto e instale as dependências com o seguinte comando:
+
+```bash
+cd TheOldTale
+npm install
+```
 
 ## **Instalação de APIs 🌐**
 
