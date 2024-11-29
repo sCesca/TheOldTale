@@ -15,7 +15,6 @@
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
 </div>
@@ -41,7 +40,6 @@
 
 Certifique-se de ter as seguintes ferramentas instaladas:
 - [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/)
 
 ### **2. Clone o repositório**
 
@@ -83,15 +81,32 @@ Utilizamos o Ollama para a geração de textos durante a gameplay. Para configur
 
 - **Modelo utilizado no Ollama:** llama3.1
 
-## Iniciando Projeto Localmente
+## Iniciando Projeto Localmente 🚀
 
-- Após instalar tudo necessário você pode iniciar o projeto com o comando ```npm run dev``` e basta segurar 'CTRL+CliqueEsquerdo' no link para abri-lo no browser. Depois disso abra outro terminal e digite ```python server``` depois aperte TAB ai o server vai virar ```.\server.py```, ai sim você pode dar ENTER.
+Após instalar todas as dependências e configurar as APIs necessárias, siga os passos abaixo para iniciar o projeto localmente:
+
+### Iniciar o Backend:
+
+- Para rodar o backend em Flask:
+```bash
+  python app.py
+```
+
+- Iniciar o Frontend:
+
+No diretório do projeto, execute o seguinte comando:
+
+```bash
+  npm run dev
+```
+
+Após isso, basta utilizar: 'CTRL+CliqueEsquerdo' no link para abri-lo no browser.
 
 - É necessário que o Stable Diffusion esteja rodando em conjunto com o setup Ollama
 
-## Login
+## Login 🔐
 ![Demonstração do Login](./gif-1.gif)
 
-## Final do Game
+## Final do Game 🎉
 ![Demonstração do Final do Jogo](./gif-2.gif)
 
