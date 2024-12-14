@@ -59,7 +59,7 @@ Para a construção do projeto, utilizamos as seguintes APIs:
 
 ### Geração de Imagens 🎨
 
-- **Stable Diffusion:** [Link para o modelo](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- **Stable Diffusion:** [Link para a ferramenta](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
   
 - **Modelos Utilizados**:
   - **Modelo DreamShaper 8:** [Link para o Modelo](https://civitai.com/models/4384/dreamshaper)
